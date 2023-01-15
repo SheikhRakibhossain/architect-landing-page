@@ -188,7 +188,10 @@ ul li:hover{
         padding-left: 20px;
         font-size: 40px;
         font-weight: 700;
+        margin-left: 2px;
+
     }  
+    
     .features-love-joy-img{
         position: relative;
     }  
@@ -331,18 +334,20 @@ footer{
 .navbar-wrap{
 
     flex-direction: column;
-    width: 688px;
+    width: 100%;
 }
-.logo{
-    width: 40%;
-    margin-bottom: 32px;
+.logo, .nav-link {
+    width: 100%;
 }
 .logo h3 {
     font-size: 20px;
+    text-align: center;
 }
 .nav-link ul{
     flex-direction: column;
 }
+
+
 
 /* navbar @media css end */
     
@@ -413,7 +418,7 @@ footer{
     justify-content: space-evenly;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    grid-row-gap: 30px;
     justify-items: center;
 }
 .some-facts-info{
@@ -453,3 +458,23 @@ footer{
 
     /* Responsive design by css @media Query (mobile and tablet) end from here */
 }
+
+/* for only for card design start*/
+@media screen and (max-width: 400px){
+.some-facts-card-wrap {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+}
+
+/* for only for card design start*/
