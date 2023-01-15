@@ -294,7 +294,7 @@ footer{
     margin-bottom: 32px;
 }
 .logo h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 .nav-link ul{
     flex-direction: column;
@@ -397,11 +397,6 @@ footer{
         width: 60%;
     }
 /* sponsor info @media css start */
-
-body{
-    overflow-x: hidden !important;
-    border: 3px solid red;
-}
 
 /* Footer design css style start */
 footer{
