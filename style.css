@@ -11,7 +11,7 @@ body{
     padding:0;
 }
 .paragraph{
-    padding:20px 0  10px 0;
+    padding:20px 10px 10px 10px;
     line-height: 1.5rem;
     font-size: 16px;
     font-weight: 400;
@@ -304,9 +304,10 @@ footer{
     
 /* brand new group section @media css start */
 
-/* .brand-new-group-section{
- 
-} */
+.brand-new-group-section {
+    
+    margin:0px;
+}
 .brand-new-group-wrap{
     flex-direction: column-reverse;
 }
@@ -381,7 +382,7 @@ footer{
 /* sponsor info @media css start */
 .sponsor-info{
     width: 100%;
-    padding: 30px;
+  
 }
 
 .sponsor-logo-cover{
@@ -397,7 +398,10 @@ footer{
     }
 /* sponsor info @media css start */
 
-
+body{
+    overflow-x: hidden !important;
+    border: 3px solid red;
+}
 
 /* Footer design css style start */
 footer{
