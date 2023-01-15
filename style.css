@@ -35,7 +35,7 @@ header{
 
     }
 .logo span{
-    color: orange;
+    color:#673ab7;
 }
 .logo h3{
     font-size: 40px;
@@ -62,7 +62,7 @@ ul li{
     padding: 10px 15px;
 }
 ul li:hover{
-    background: #9c1eaba6;
+    background: #673ab7;
     border-radius: 5px;
     color: white;
     cursor: pointer;
@@ -98,6 +98,10 @@ ul li:hover{
         line-height: 1.5rem;
         padding: 30px 0;
     }
+    .group-info h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
     .explore-more-btn{
         padding: 15px 20px;
         background-color: #673ab7;
@@ -116,6 +120,10 @@ ul li:hover{
 
 
     /* Quick list of Our Features design css start */
+    .info{
+        line-height: 1.5rem;
+        padding: 21px 0;
+    }
     .our-features {
         display: flex;
         justify-content: center;
@@ -127,6 +135,21 @@ ul li:hover{
         gap: 50px;
         align-items: center;
     }
+    .quick-list{
+        color: #727272;
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .features-title{
+        color:#131313;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .features{
+        color:#673ab7;
+
+    }
+    
     .features-image-wrap{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -163,8 +186,8 @@ ul li:hover{
     .features-love-joy-title h2{
         border-left: 5px solid orange;
         padding-left: 20px;
-        font-size: 5vw;
-        font-weight: 600;
+        font-size: 40px;
+        font-weight: 700;
     }    
     .features-love-joy-img img{
         width: 100%;
@@ -179,7 +202,7 @@ ul li:hover{
     }
     .experience{
         width: 200px;
-        background-image: linear-gradient(356deg, #8eccff 0%, #00d4ff 100%);
+        background:#683ab7a5;
         text-align: center;
         padding: 30px;
         border-radius: 5px;
@@ -191,10 +214,10 @@ ul li:hover{
 
     /* some facts card css start */
 
-    .some-fact-wrapper{
+    /* .some-fact-wrapper{
         
         width: 1440px;
-    }
+    } */
     .some-facts-info{
         padding-left: 4%;
         margin: 5% 0;
@@ -207,8 +230,9 @@ ul li:hover{
     }
 
     .some-facts-card {
+        width: 230px;
         box-sizing: border-box;
-        border: 2px solid orange;
+        border: 2px solid #673ab7;
         padding: 34px 18px;
         display: flex;
         flex-direction: column;
@@ -218,7 +242,11 @@ ul li:hover{
         border-radius: 10px;
     }
     .some-facts-card:hover{
-        background: #4cfbe7;
+        background:#673ab7;
+        cursor: pointer;
+        transform: translate3d(to right 30deg);
+        transition: 1s;
+        color: white;
     }
     .some-facts-card-wrap{
         display: flex;
@@ -226,6 +254,10 @@ ul li:hover{
         align-items: center;
     
     }
+    .some-facts-info h2{
+        font-size: 45px;
+        font-weight: 700;
+}
     /* some facts card css end */
 
     /* our sponsor design css start  */
@@ -243,6 +275,10 @@ ul li:hover{
         width: 40%;
         text-align: center;
         margin: 4% 0;
+    }
+    .sponsor-info h2{
+        font-size: 45px;
+        font-weight: 700;
     }
     .sponsor-info p{
         line-height: 1.5rem;
@@ -267,12 +303,14 @@ footer{
     align-items: center;
     justify-content: center;
     margin: 100px 0px;
+    color: white;
 }
 .footer-wrapper {
     width: 1440px;
-    background: #2cd4af;
+    background:#673ab7;
     text-align: center;
     padding: 5% 0;
+    border-radius: 10px;
 }
     /* footer design style css end */
 
@@ -319,6 +357,7 @@ footer{
     
     width: 100%;
 }
+
 /* brand new group section @media css end */
 
 
@@ -376,6 +415,7 @@ footer{
     text-align: center;
     padding: 0px 20px;
 }
+
 /* some-facts-info  @media css style end*/
 
 
@@ -398,13 +438,6 @@ footer{
     }
 /* sponsor info @media css start */
 
-/* Footer design css style start */
-footer{
 
-}
-.footer-wrapper{
-
-}
-/* Footer design css style end */
     /* Responsive design by css @media Query (mobile and tablet) end from here */
 }
