@@ -34,9 +34,15 @@ header{
        justify-content: center;
 
     }
-
+.logo span{
+    color: orange;
+}
+.logo h3{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
 .navbar-wrap{
-    width: 1440px;
+    width: 80vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,8 +163,8 @@ ul li:hover{
     .features-love-joy-title h2{
         border-left: 5px solid orange;
         padding-left: 20px;
-        font-size: 45px;
-        font-weight: 700;
+        font-size: 5vw;
+        font-weight: 600;
     }    
     .features-love-joy-img img{
         width: 100%;
@@ -173,8 +179,11 @@ ul li:hover{
     }
     .experience{
         width: 200px;
-        background-image:linear-gradient(356deg, #204360 0%, #00d4ff 100%);
+        background-image: linear-gradient(356deg, #8eccff 0%, #00d4ff 100%);
         text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+        color: white;
     }
        /* 10 years experience design start */
 
@@ -273,26 +282,130 @@ footer{
 
 @media screen and (max-width:688px) {
 
+/* navbar @media css start */
 
-.nav-bar{
-
-}
 .navbar-wrap{
 
     flex-direction: column;
+    width: 688px;
 }
-
+.logo{
+    width: 40%;
+    margin-bottom: 32px;
+}
+.logo h3 {
+    font-size: 25px;
+}
 .nav-link ul{
     flex-direction: column;
 }
 
-
+/* navbar @media css end */
     
+/* brand new group section @media css start */
+
+/* .brand-new-group-section{
+ 
+} */
+.brand-new-group-wrap{
+    flex-direction: column-reverse;
+}
+
+.group-img img{
+    width:100%;
+}
+.group-info {
+    
+    width: 100%;
+}
+/* brand new group section @media css end */
+
+
+/* .our-features-wrapper media css start */
+.our-features-wrapper{
+    flex-direction: column;
+}
+.features-image-wrap {
+ 
+    grid-template-columns: repeat(1, 1fr);
+ 
+}
+.features-details-wrap{
+    padding: 3% 5%;
+}
+.info{
+    line-height: 1.5rem;
+    padding: 15px 0px;
+
+}
+/* .our-features-wrapper media css send */
+
+
+/* .features-love-joy-wrap @media css style sheet start */
+
+.features-love-joy-wrap{
+    flex-direction: column-reverse;
+}
+.features-love-joy-info{
+    margin: 100px 0px 0 0;
+
+    }
+.features-love-joy-img img {
+        width: 100%;
+        height: auto;
+    }
+/* .features-love-joy-wrap @media css style sheet end */
+
+/* some-facts-info  @media css style start*/
+.some-fact-wrapper{
+    width: 100%;
 }
 
 
 
+.some-facts-card-wrap {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+.some-facts-info{
+    width: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+/* some-facts-info  @media css style end*/
+
+
+/* sponsor info @media css start */
+.sponsor-info{
+    width: 100%;
+    padding: 30px;
+}
+
+.sponsor-logo-cover{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1rem;
+        padding: 1%;
+    }
+
+
+    .sponsor-logo img {
+        width: 60%;
+    }
+/* sponsor info @media css start */
 
 
 
+/* Footer design css style start */
+footer{
+
+}
+.footer-wrapper{
+
+}
+/* Footer design css style end */
     /* Responsive design by css @media Query (mobile and tablet) end from here */
+}
