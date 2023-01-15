@@ -184,11 +184,14 @@ ul li:hover{
     
    
     .features-love-joy-title h2{
-        border-left: 5px solid orange;
+        border-left: 5px solid #673ab7;
         padding-left: 20px;
         font-size: 40px;
         font-weight: 700;
-    }    
+    }  
+    .features-love-joy-img{
+        position: relative;
+    }  
     .features-love-joy-img img{
         width: 100%;
         height: 100%;
@@ -196,13 +199,16 @@ ul li:hover{
         /* features-love-joy-title and description design end */
         /* 10 years experience design start */
     .experience-wrapper{
-       display: flex;
-       justify-content: center;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-left: 63%;
+        margin-top: -19%;
        
     }
     .experience{
         width: 200px;
-        background:#683ab7a5;
+        background:#673ab7;
         text-align: center;
         padding: 30px;
         border-radius: 5px;
@@ -437,6 +443,12 @@ footer{
         width: 60%;
     }
 /* sponsor info @media css start */
+
+/* experience wrapper css start */
+.experience-wrapper {
+    display: none;
+}
+/* experience wrapper css end */
 
 
     /* Responsive design by css @media Query (mobile and tablet) end from here */
