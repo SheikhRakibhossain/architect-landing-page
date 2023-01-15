@@ -1,0 +1,296 @@
+/* google font add link start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap');
+/* google font add link end */
+
+/* Primary design start */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.paragraph{
+    padding:20px 0  10px 0;
+    line-height: 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+.none{
+    display: none;
+    visibility: hidden;
+}
+/* Primary design end */
+
+/* header design start */
+
+
+header{
+    background-color:#FFF4E7 ;
+}
+    /* nav bar design start */
+.nav-bar{
+       display: flex;
+       justify-content: center;
+
+    }
+
+.navbar-wrap{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.nav-link ul{
+    display: flex;
+    justify-items: end;
+    justify-content: flex-end;
+
+}
+.logo, .nav-link{
+width: 40%;
+}
+ul li{
+    list-style: none;
+    padding: 10px 15px;
+}
+ul li:hover{
+    background: #9c1eaba6;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .6s;
+    
+}
+    /* nav bar design end*/
+
+/* header design end*/
+
+    /* Brand new architect group css design style start */
+
+    .brand-new-group-section{
+        display: flex;
+        justify-content: center;
+        margin: 120px 0px;
+
+    }
+    .brand-new-group-wrap{
+        width: 1440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+    .group-info{
+        width: 800px;
+        text-align: center;
+    }
+    .group-info p{
+        line-height: 1.5rem;
+        padding: 30px 0;
+    }
+    .explore-more-btn{
+        padding: 15px 20px;
+        background-color: #673ab7;
+        color: white;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .group-info button:hover{
+        background: #3b01a3;
+        transition: .6s;
+        cursor: pointer;
+    }
+    /* Brand new architect group css design style end */
+
+
+    /* Quick list of Our Features design css start */
+    .our-features {
+        display: flex;
+        justify-content: center;
+    }
+    .our-features-wrapper{
+        display: flex;
+        justify-content: center;
+        width: 1440px;
+        gap: 50px;
+        align-items: center;
+    }
+    .features-image-wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    /* Quick list of Our Features design css end*/
+
+    /* features-love-and-joy design css style start */
+
+    .features-love-and-joy-wrapper{
+        display:flex;
+        justify-content: center;
+        margin: 8% 0;
+    }
+    .features-love-joy-wrap{
+        width:1440px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 100px;
+        }
+        .feature-single-post{
+            border-radius: 5px;
+            box-shadow: 1px 1px 9px #d3cfcf8f;
+            padding: 20px 15px;
+            margin: 20px;
+        }
+
+
+
+        /* features-love-joy-title and description design start */
+    
+   
+    .features-love-joy-title h2{
+        border-left: 5px solid orange;
+        padding-left: 20px;
+        font-size: 45px;
+        font-weight: 700;
+    }    
+    .features-love-joy-img img{
+        width: 100%;
+        height: 100%;
+    }
+        /* features-love-joy-title and description design end */
+        /* 10 years experience design start */
+    .experience-wrapper{
+       display: flex;
+       justify-content: center;
+       
+    }
+    .experience{
+        width: 200px;
+        background-image:linear-gradient(356deg, #204360 0%, #00d4ff 100%);
+        text-align: center;
+    }
+       /* 10 years experience design start */
+
+    /* features-love-and-joy design css style end */
+
+    /* some facts card css start */
+
+    .some-fact-wrapper{
+        
+        width: 1440px;
+    }
+    .some-facts-info{
+        padding-left: 4%;
+        margin: 5% 0;
+        width: 40%;
+    
+    }
+    .some-facts-info p{
+        line-height: 1.5rem;
+        padding: 25px 0;
+    }
+
+    .some-facts-card {
+        box-sizing: border-box;
+        border: 2px solid orange;
+        padding: 34px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+    }
+    .some-facts-card:hover{
+        background: #4cfbe7;
+    }
+    .some-facts-card-wrap{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    /* some facts card css end */
+
+    /* our sponsor design css start  */
+    .our-sponsors-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+    }
+    .sponsor-info-wrapper{
+        text-align: center;
+    }
+    .sponsor-info{
+        width: 40%;
+        text-align: center;
+        margin: 4% 0;
+    }
+    .sponsor-info p{
+        line-height: 1.5rem;
+        padding: 17px 0px;
+    }
+.sponsor-logo-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sponsor-logo img{
+    width: 80%;
+    filter: grayscale(1);
+}
+    /* our sponsor design css end  */
+
+    /* footer design style css start */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.footer-wrapper {
+    width: 1440px;
+    background: #2cd4af;
+    text-align: center;
+    padding: 5% 0;
+}
+    /* footer design style css end */
+
+
+
+    /* Responsive design by css @media Query (mobile and tablet) start from here */
+
+@media screen and (max-width:688px) {
+
+
+.nav-bar{
+
+}
+.navbar-wrap{
+
+    flex-direction: column;
+}
+
+
+
+
+    
+}
+
+
+
+
+
+
+    /* Responsive design by css @media Query (mobile and tablet) end from here */
