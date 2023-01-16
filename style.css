@@ -5,6 +5,12 @@
 /* Primary design start */
 body{
     font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 *{
     margin: 0;
@@ -38,11 +44,11 @@ header{
     color:#673ab7;
 }
 .logo h3{
-    font-size: 40px;
+    font-size: 22px;
     letter-spacing: 1px;
 }
 .navbar-wrap{
-    width: 80vw;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,13 +88,16 @@ ul li:hover{
 
     }
     .brand-new-group-wrap{
-        width: 1440px;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 30px;
        
+    }
+    .group-img img{
+        width: 100%;
     }
     .group-info{
         width: 800px;
@@ -131,7 +140,7 @@ ul li:hover{
     .our-features-wrapper{
         display: flex;
         justify-content: center;
-        width: 1440px;
+        width: 90%;
         gap: 50px;
         align-items: center;
     }
@@ -165,7 +174,7 @@ ul li:hover{
         margin: 8% 0;
     }
     .features-love-joy-wrap{
-        width:1440px;
+        width:90%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -227,10 +236,17 @@ ul li:hover{
         
         width: 1440px;
     } */
+
+   .some-facts-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .some-facts-info{
         padding-left: 4%;
-        margin: 5% 0;
-        width: 40%;
+        margin: 5% 2%;
+      
     
     }
     .some-facts-info p{
@@ -315,7 +331,7 @@ footer{
     color: white;
 }
 .footer-wrapper {
-    width: 1440px;
+    width: 90%;
     background:#673ab7;
     text-align: center;
     padding: 5% 0;
@@ -470,11 +486,76 @@ footer{
 }
 
 
-
-
-
-
-
 }
 
 /* for only for card design start*/
+
+/* Responsive css start for Medium or tablet devices */
+
+
+@media screen and (min-width:689px) and (max-width:992px) {
+
+/* Group info css start */
+
+.group-info {
+    width: 100%;
+    text-align: center;
+}
+/* Group info css end */
+/* .our-features-wrapper css start */
+.our-features-wrapper {
+    flex-direction: column-reverse;
+}
+
+/* .our-features-wrapper css end */
+
+/* features-love-joy-wrap css start */
+
+.features-love-joy-wrap{
+    flex-direction: column;
+    padding: 1%;
+}
+.experience {
+    margin-left: -300%;
+}
+/* features-love-joy-wrap css end */
+/* .some-facts-card-wrap  */
+.some-facts-card-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-row-gap: 50px;
+}
+
+.some-facts-card {
+    width: 300px;
+}
+
+
+
+.group-img img{
+    width:100%;
+}
+
+.our-sponsor-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+   
+}
+
+
+/* Responsive css end for Medium or tablet devices */
+
